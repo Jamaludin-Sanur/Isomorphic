@@ -1,0 +1,40 @@
+
+/* =======================
+    Booking Input 
+=======================*/
+
+.booking-input{
+    margin-bottom: 2rem;
+}
+
+.booking-input-title{
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: 1.1rem;
+}
+
+.booking-input-form{
+    width: 250px;
+}
+
+
+/* =======================
+    Booking Result 
+=======================*/
+
+.booking-result > * {
+    margin-bottom: 1rem;
+}
+
+.booking-result-photo{
+    height: 10rem;
+}
+
+
+/* =======================
+    Helper
+=======================*/
+.txt-bold{
+    font-weight: 900;
+}
+
