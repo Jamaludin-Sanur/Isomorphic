@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import asyncComponent from '../../helpers/AsyncFunc';
-import customRoutes from '../../customApp/router';
+import customRoutes from '../../customApp/router/index.js';
 
 const routes = [
   {

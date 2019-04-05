@@ -81,6 +81,7 @@
   "sidebar.blankPage": "Blank Page",
   "sidebar.githubSearch": "Github Search",
   "sidebar.youtubeSearch": "Youtube Search",
+  "sidebar.guestPortal": "Guest Portal",
   "languageSwitcher.label": "Change Language",
   "themeSwitcher": "Theme Switcher",
   "themeSwitcher.Sidebar": "Sidebar",
@@ -636,5 +637,13 @@
   "topbar.logout": "Logout",
   "topbar.viewAll": "View All",
   "topbar.viewCart": "View Cart",
-  "topbar.totalPrice": "Total Price"
+  "topbar.totalPrice": "Total Price",
+  "booking.greeting" : "Hi",
+  "booking.result" : "Thank you for booking with Bukit Vista. Here are the details of your current booking.",
+  "booking.propertyName": "Property Name",
+  "booking.checkIn" : "Check In Date",
+  "booking.checkOut" : "Check Out Date",
+  "booking.arrivalTime" : "Arrival Time",
+  "booking.arrivalTimeNotExist" : "Please fill your arrival time",
+  "booking.arrivalTimeExist" : "Thank you, your host has been informed about your arrival"
 }

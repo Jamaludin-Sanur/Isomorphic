@@ -1,4 +1,4 @@
-import getDevSidebar from '../../customApp/sidebar';
+import getDevSidebar from '../../customApp/containers/Sidebar';
 const options = [
   {
     key: 'mailbox',
