@@ -14,7 +14,7 @@ export async function getBooking(bookingCode){
     if(bookingCode === "1234ABCD"){
         return {
             codeBooking: "1234ABCD",
-            name : "Gisella",
+            name : "Alexa",
             photo: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
             propertyName: "Villa Bagus By Bukit Vista",
             checkIn: "2020-01-01:00:00Z",
@@ -40,7 +40,7 @@ export async function editBooking(bookingCode, arrivalTime){
     if(bookingCode === "1234ABCD"){
         return {
             codeBooking: "1234ABCD",
-            name : "Gisella",
+            name : "Alexa",
             photo: "https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png",
             propertyName: "Villa Bagus By Bukit Vista",
             checkIn: "2020-01-01:00:00Z",

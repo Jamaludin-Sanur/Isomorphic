@@ -4,11 +4,13 @@ import LayoutContent from "../../../components/utility/layoutContent";
 import PageHeader from '../../../components/utility/pageHeader';
 import IntlMessages from '../../../components/utility/intlMessages';
 import Booking from '../../components/Booking';
+import InsertDriverServices from '../../components/DriverServices/InsertDriverServices';
+import { connect } from 'react-redux';
 
-export default class extends React.Component {
+class BookingContainer extends React.Component {
 
     render() {
-
+        console.log("booking ", this.props.booking)
         return (
             <LayoutWrapper>
 
@@ -18,7 +20,14 @@ export default class extends React.Component {
 
                 {/* Display content */}
                 <LayoutContent>
+
+                    {/* Display Booking Component */}
                     <Booking></Booking>
+
+                    {/* Display Insert Driver Service */}
+                    { this.props.booking.getResult &&
+                        <InsertDriverServices></InsertDriverServices>
+                    }
                 </LayoutContent>
 
             </LayoutWrapper>
@@ -26,3 +35,9 @@ export default class extends React.Component {
     }
 
 }
+
+const mapStateToProps = state => {
+    return { booking: state.booking };
+}
+
+export default connect(mapStateToProps)(BookingContainer);
